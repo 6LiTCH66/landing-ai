@@ -5,7 +5,7 @@ import {Header} from "./containers";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+        <Navbar/>
         <Header/>
 
     </div>
