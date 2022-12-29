@@ -1,0 +1,119 @@
+.services-container{
+
+    padding: 11rem 6rem 20rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-info_title{
+    /*display: flex;*/
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    max-width: 466px;
+}
+.services-info_title p{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.normal_title{
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.services-info_container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.5rem;
+}
+.services-info_container:last-child{
+    padding-bottom: 0;
+}
+.services-info_icon_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+    padding-bottom: 5px;
+}
+
+.services-info_icon_shadow{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: #B4B5FF;
+    filter: blur(2.72448px);
+    position: relative;
+}
+
+.services-info_discretion_container p:first-child{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 860;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7376FF;
+
+}
+.services-info_icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: #0F001F;
+    position: absolute;
+
+}
+
+.services-info_discretion{
+    padding-top: 36px;
+
+}
+
+.services-info_discretion_container p:last-child{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    max-width: 359px;
+    padding-top: 20px;
+}
+
+.services-info_icon_phone{
+    width: 20px;
+    height: 32px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.dot{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 0.5px;
+}
+.services-container_images{
+    background-color: #0F001F;
+    stroke: #0F001F;
+
+}

@@ -3,13 +3,15 @@
     padding: 0 6rem 0 6rem;
 
 
-    /*height:100%;*/
-    /*width:100%;*/
-
     /*FOR RESPONSIVE*/
     /*display: BLOCK;*/
     /*padding: 0 2rem 0 2rem; OR padding: 0 1rem 0 1rem;*/
 }
+
+/*.header-box{*/
+/*    background-color: green;*/
+/*    height: 90vh;*/
+/*}*/
 
 .header-text_title .header-title_gradient{
 
@@ -102,4 +104,27 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+.gradient_1{
+    position: absolute;
+    left: 19.47%;
+    right: 74.44%;
+    top: 15.01%;
+    bottom: 83.81%;
+
+    background: #3ABFFF;
+    filter: blur(29.6698px);
+    transform: matrix(0.75, -0.7, 0.63, 0.74, 0, 0);
+}
+.gradient_2{
+    position: absolute;
+    height: 116.18557661334856px;
+    width: 181.82257859754066px;
+    /*left: 145.07421875px;*/
+    /*top: 516.2728271484375px;*/
+
+    background: conic-gradient(from 118.92deg at 50% 50%, #2ADACC 0deg, #6972CD 171.22deg, #3ABFFF 360deg);
+    filter: blur(92.683px);
+    transform: matrix(0.9, -0.47, 0.41, 0.89, 0, 0);
+
 }
