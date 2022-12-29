@@ -1,15 +1,37 @@
 import React from 'react';
 import "./services.css"
-import iphone_12 from "../../assets/iphone_12.svg"
+
 import pc from "../../assets/iconoir_pc-check.svg"
 import user from "../../assets/user.svg"
-import iphone_13 from "../../assets/iPhone_13.svg"
+import Iphone_12 from "../../assets/iPhone_12.svg"
+import Iphone_13 from "../../assets/iPhone_13.svg"
 function Services(props) {
     return (
         <div className="services-container">
+
             <div className="services-container_images">
-                <img src={iphone_12} alt=""/>
+
+                <div className="images-blur_container">
+                    <div className="images_blur_1">
+
+                    </div>
+                    <div className="images_blur_2">
+
+                    </div>
+                </div>
+
+
+
+
+                <div className="iphone-13_image">
+                    <img src={Iphone_13} alt="iphone_13"/>
+                </div>
+
+                <div className="iphone-12_image">
+                    <img src={Iphone_12} alt="iphone_12"/>
+                </div>
             </div>
+
             <div className="services-container_info">
                 <div className="services-info_title">
                     <p>
