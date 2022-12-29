@@ -1,3 +1,8 @@
+.services-box{
+    position: relative;
+
+}
+
 .services-container{
 
     padding: 11rem 6rem 20rem 6rem;
@@ -7,7 +12,7 @@
 }
 
 .services-info_title{
-    /*display: flex;*/
+
     background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -114,12 +119,15 @@
 }
 .services-container_images{
     display: flex;
-    /*justify-content: center;*/
     align-content: center;
     align-items: center;
 
     position: relative;
-    right: 105px;
+    right: 90px;
+
+    width: 400px;
+    height: 600px;
+
 }
 .iphone-13_image{
     position: absolute;
@@ -132,7 +140,6 @@
 .images-blur_container{
     position: relative;
     left: 140px;
-    /*background-color: red;*/
 }
 
 .images_blur_1{
@@ -155,4 +162,38 @@
     transform: matrix(0.9, -0.47, 0.41, 0.89, 0, 0);
 }
 
+.services-container_vector{
+    position: absolute;
+    top: 330px;
+}
 
+
+@media screen and (max-width: 480px) {
+    .services-container{
+        display: block;
+        padding: 11rem 1rem 20rem 1rem;
+    }
+    .services-info_container{
+        justify-content: space-around;
+    }
+    .services-info_discretion_container{
+        padding-left: 1rem;
+    }
+    .services-info_icon_container{
+        align-items: center;
+        padding-top: 3rem;
+    }
+    .services-container_images{
+        right: 65px;
+    }
+
+}
+
+@media screen and (max-width: 1050px){
+    .services-container{
+        padding: 11rem 1rem 20rem 1rem;
+    }
+    .services-info_discretion_container{
+        padding-left: 1rem;
+    }
+}
