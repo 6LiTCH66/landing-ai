@@ -14,6 +14,16 @@ function Services(props) {
                 <img src={Vector} alt="vector"/>
             </div>
 
+            <div className="services-info-title-container">
+                <div className="services-info_title">
+                    <p>
+                        <span >Explore </span>
+                        <span className="normal_title">from computer,control from phone</span>
+                    </p>
+                </div>
+            </div>
+
+
             <div className="services-container">
 
                 <div className="services-container_images">
@@ -38,13 +48,14 @@ function Services(props) {
                 </div>
 
                 <div className="services-container_info">
-                    <div className="services-info_title">
-                        <p>
-                            <span >Explore </span>
-                            <span className="normal_title">from computer,control from phone</span>
-                        </p>
 
-                    </div>
+                    {/*<div className="services-info_title">*/}
+                    {/*    <p>*/}
+                    {/*        <span >Explore </span>*/}
+                    {/*        <span className="normal_title">from computer,control from phone</span>*/}
+                    {/*    </p>*/}
+
+                    {/*</div>*/}
 
 
                     <div className="services-info_discretion">

@@ -1,6 +1,6 @@
 .header-container{
     display: flex;
-    padding: 0 6rem 0 6rem;
+    padding: 0 6rem 11rem 6rem;
 
 
     /*FOR RESPONSIVE*/
@@ -56,11 +56,6 @@
 
 }
 
-/*.header-image{*/
-/*    width: 100%;*/
-/*    display: flex;*/
-/*    flex-direction: row-reverse;*/
-/*}*/
 
 .btn:hover{
     cursor: pointer;
@@ -120,11 +115,28 @@
     position: absolute;
     height: 116.18557661334856px;
     width: 181.82257859754066px;
-    /*left: 145.07421875px;*/
-    /*top: 516.2728271484375px;*/
 
     background: conic-gradient(from 118.92deg at 50% 50%, #2ADACC 0deg, #6972CD 171.22deg, #3ABFFF 360deg);
     filter: blur(92.683px);
     transform: matrix(0.9, -0.47, 0.41, 0.89, 0, 0);
 
+}
+
+@media screen and (max-width: 1050px){
+    .header-container{
+        padding: 0 1rem 11rem 1rem;
+    }
+    .header-text_description p{
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .header-container{
+        display: block;
+    }
+    .header-text_description p{
+
+        padding-right: 0;
+    }
 }
