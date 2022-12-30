@@ -1,6 +1,11 @@
 .header-container{
     display: flex;
     padding: 0 6rem 11rem 6rem;
+    /*background: red;*/
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
 
     /*FOR RESPONSIVE*/
@@ -122,8 +127,10 @@
 
 }
 
+
 @media screen and (max-width: 1050px){
     .header-container{
+        height: 100%;
         padding: 0 1rem 11rem 1rem;
     }
     .header-text_description p{
@@ -133,10 +140,15 @@
 
 @media screen and (max-width: 480px){
     .header-container{
+        height: 100%;
         display: block;
     }
     .header-text_description p{
 
         padding-right: 0;
+    }
+    .header-image img{
+        max-width: 100%;
+        height: auto;
     }
 }

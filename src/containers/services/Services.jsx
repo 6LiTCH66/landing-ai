@@ -3,13 +3,14 @@ import "./services.css"
 
 import pc from "../../assets/iconoir_pc-check.svg"
 import user from "../../assets/user.svg"
-import Iphone_12 from "../../assets/iPhone_12.svg"
 import Iphone_13 from "../../assets/iPhone_13.svg"
 import Vector from "../../assets/Vector.svg"
 import iphone from "../../assets/Group 98.svg"
+
+
 function Services(props) {
     return (
-        <div className="services-box">
+        <div className="services-box" id="services">
             <div className="services-container_vector">
                 <img src={Vector} alt="vector"/>
             </div>
@@ -48,14 +49,6 @@ function Services(props) {
                 </div>
 
                 <div className="services-container_info">
-
-                    {/*<div className="services-info_title">*/}
-                    {/*    <p>*/}
-                    {/*        <span >Explore </span>*/}
-                    {/*        <span className="normal_title">from computer,control from phone</span>*/}
-                    {/*    </p>*/}
-
-                    {/*</div>*/}
 
 
                     <div className="services-info_discretion">

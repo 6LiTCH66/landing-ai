@@ -1,0 +1,240 @@
+.solutions-box{
+    position: relative;
+    display: grid;
+    /*align-content: center;*/
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+.solutions-container{
+    padding: 0 6rem 0 6rem;
+
+}
+.solutions-container_title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width: 100%;
+    /*padding-top: 2.4rem;*/
+}
+
+.solutions-container_title span{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+
+    color: #F4F4F4;
+
+}
+
+.solutions-container_title span:last-child{
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.arrows{
+    min-width: 3rem;
+    min-height: 3rem;
+    border-radius: 50%;
+    background: rgba(50, 50, 50, 0.75);
+    display: flex;
+    justify-content: center;
+    /*align-content: center;*/
+    align-items: center;
+    cursor: pointer;
+}
+
+.solutions-shadow{
+    position: absolute;
+    background: linear-gradient(180deg, #2ADACC 23.86%, #3ABFFF 126.92%);
+    opacity: 0.7;
+    filter: blur(5.2rem);
+    transform: rotate(-46.27deg);
+
+    width: 18.5rem;
+    height: 14.1rem;
+    left: -15rem;
+    top: -1rem;
+}
+.solutions-container_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.7rem 0 4.5rem 0;
+
+    height: 100%;
+}
+.solution-project{
+    width: 100%;
+    height: 100%;
+    background: #0C1013;
+    border-radius: 5px;
+    padding: 1.574rem 1rem;
+}
+
+.solution-project_shadow{
+
+    padding: 1px;
+    border-radius: 5px;
+    min-height: 260px;
+    min-width: 195.15px;
+
+    background: linear-gradient(180deg, #35B4FB 11.98%, #2514DF 100%);
+    margin: 10px;
+
+}
+.solution-project_shadow_1{
+    padding: 10px;
+    background-color: red;
+    min-height: 260px;
+    min-width: 195.15px;
+}
+
+.solutions-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+/*.solution-project_shadow:hover{*/
+/*    padding: 3px;*/
+/*    background: linear-gradient(180deg, #6CCAFF 11.98%, #2A8FEC 100%);*/
+/*    transition: 0.15s linear;*/
+/*}*/
+
+.solution-project_shadow:first-child{
+    padding: 3px;
+    background: linear-gradient(180deg, #6CCAFF 11.98%, #2A8FEC 100%);
+}
+
+.solution-project_icon{
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 1.17px solid #2ADACC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.solution-project_content-description{
+    max-width: 10.1rem;
+    /*border-color: coral;*/
+    border-bottom: 1px solid #202932;
+    padding-bottom: 5px;
+
+}
+
+.solution-project_content-description span{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    color: #D9F7F5;
+}
+.solution-project_content-title{
+    padding-bottom: 11px;
+}
+
+.solution-project_content-title span{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.6702px;
+    line-height: 14px;
+
+    color: #7376FF;
+
+}
+.solution-project_content{
+    margin-top: 1.6rem;
+}
+.solution-project_content-button a{
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.36694px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #2ADACC;
+    text-decoration: none;
+}
+.solution-project_content-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 18.15px;
+}
+.solutions-shadow_2{
+    position: absolute;
+    z-index: -1;
+
+    /*left: 915.42px;*/
+    /*top: 462.18px;*/
+
+    width: 359.84px;
+    height: 226.57px;
+    background: conic-gradient(from -42.07deg at 50% 50%, #6972CD -94.08deg, #3ABFFF 59.67deg, #726BD0 163.43deg, #FF00FF 194.05deg, #6972CD 265.92deg, #3ABFFF 419.67deg);
+    filter: blur(166.592px);
+    transform: rotate(-39.28deg);
+
+}
+.solutions-shadow_3{
+    z-index: -1;
+    position: absolute;
+    width: 168.69px;
+    height: 96.43px;
+
+    /*left: 1047.52px;*/
+    /*top: 420.72px;*/
+
+    background: #6972CD;
+    filter: blur(41.6481px);
+    transform: rotate(-71.18deg);
+}
+
+.solutions-shadow_container{
+    position: absolute;
+    /*top: 330px;*/
+    /*left: 40px;*/
+
+    width: 100%;
+    /*height: 10px;*/
+    bottom: 6rem;
+    right: -90%;
+
+}
+@media screen and (max-width: 480px){
+    .solutions-container{
+        padding: 0 1rem;
+    }
+    .solutions-box{
+        height: 100%;
+        display: block;
+    }
+    .solutions-shadow_container{
+        bottom: 6rem;
+        right: -70%;
+    }
+
+}@media screen and (max-width: 1050px){
+    .solutions-container{
+        padding: 0 1rem;
+    }
+
+
+
+}
