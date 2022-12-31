@@ -181,6 +181,9 @@
     width: 100%;
     max-width: 466px;
 }
+.solutions-container_title{
+    margin-top: 5rem;
+}
 
 
 @media screen and (max-width: 480px) {

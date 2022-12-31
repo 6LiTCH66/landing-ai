@@ -132,6 +132,7 @@
     .header-container{
         height: 100%;
         padding: 0 1rem 11rem 1rem;
+        display: block;
     }
     .header-text_description p{
         padding-right: 0;

@@ -2,7 +2,6 @@
     height: 100vh;
     display: flex;
     justify-content: space-between;
-    /*align-content: center;*/
     align-items: center;
 }
 .about-info_container{
@@ -14,6 +13,8 @@
     display: flex;
     justify-content: space-around;
     padding: 0 6rem 0 6rem;
+    margin-top: 5rem;
+
 
 }
 
@@ -42,8 +43,6 @@
 }
 .about_info-description{
     margin-top: 36px;
-    /*width: 100%;*/
-    /*min-width: 522px;*/
 }
 .about_info-description p {
     font-family: 'BlinkMacSystemFont';
@@ -107,5 +106,35 @@
     position: absolute;
     right: 0;
     bottom: 0;
-
 }
+
+@media screen and (max-width: 769px){
+    .about-container{
+        display: block;
+        padding: 0 1rem;
+    }
+    .about-info_container{
+        padding-bottom: 13rem;
+    }
+    .about-images_cards{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .about-main_container{
+        display: block;
+        height: 100%;
+    }
+    .about-container{
+        display: block;
+        padding: 0 1rem;
+    }
+    .about-info_container{
+        padding-bottom: 13rem;
+    }
+    .about-images_cards{
+        left: 25%;
+    }
+}
+

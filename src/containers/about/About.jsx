@@ -7,7 +7,6 @@ import about_vector from "../../assets/about_vector.svg"
 function About(props) {
     return (
         <div className="about-main_container" id="about_us">
-            {/*<img src={about_vector} alt="about vector" className="about_vector"/>*/}
             <div className="about-container">
 
                 <div className="about-info_container">
