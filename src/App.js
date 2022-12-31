@@ -1,6 +1,6 @@
 import './App.css';
 import {Navbar} from "./components";
-import {Header, Services, Solutions} from "./containers";
+import {Header, Services, Solutions, About} from "./containers";
 
 function App() {
   return (
@@ -12,6 +12,8 @@ function App() {
         <Services/>
 
         <Solutions/>
+
+        <About/>
 
     </div>
   );

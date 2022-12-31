@@ -1,0 +1,111 @@
+.about-main_container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    /*align-content: center;*/
+    align-items: center;
+}
+.about-info_container{
+    width: 100%;
+}
+
+.about-container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 6rem 0 6rem;
+
+}
+
+.about_info-title p{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+
+    color: #E0E0E0;
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.about_info-title{
+    width: 201px;
+    height: 29px;
+}
+
+.about_info-title p span:first-child{
+    -webkit-text-fill-color: #E0E0E0;
+
+}
+.about_info-description{
+    margin-top: 36px;
+    /*width: 100%;*/
+    /*min-width: 522px;*/
+}
+.about_info-description p {
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #F4F4F4;
+    display: flex;
+    align-items: center;
+}
+.about-images_container{
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.about-images_shadow{
+    position: absolute;
+    z-index: -1;
+    width: 254.19px;
+    height: 251.38px;
+    right: 35%;
+    background: conic-gradient(from 1.34deg at 60.23% 59.08%, #00090F -48.1deg, rgba(255, 0, 255, 0.1) 8.51deg, #6972CD 74.14deg, #2ADACC 237.28deg, #00090F 311.9deg, rgba(255, 0, 255, 0.1) 368.51deg);
+    filter: blur(56.3683px);
+    transform: rotate(-77.52deg);
+
+}
+.about-images_cards{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    left: 40%;
+    right: 0;
+}
+
+.about-images_cards > div{
+    position: absolute;
+}
+.apple-card{
+    z-index: 3;
+
+}
+.microsoft-card{
+    z-index: 2;
+    transform: rotate(-13deg);
+    transform-origin: bottom right;
+
+}
+.boeing-card{
+    z-index: 1;
+    transform: rotate(-25deg);
+    transform-origin: bottom right;
+
+}
+.about_vector{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
