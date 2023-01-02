@@ -1,0 +1,187 @@
+.faq-box{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+
+}
+.faq-container{
+    display: flex;
+    padding: 0 6rem;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+
+}
+.faq_info-title{
+    width: 247px;
+}
+
+.faq_info-title p span{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 119%;
+
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.faq_info-description{
+    margin: 2.25rem 0;
+    /*background: red;*/
+    /*width: 302px;*/
+    max-width: 302px;
+    width: 100%;
+}
+
+.faq_info-description p span{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 119%;
+
+    text-transform: capitalize;
+
+    color: #FCFAFA;
+}
+.faq_title-down-text{
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    width: 100%;
+
+}
+.faq_title-down-text span:first-child{
+    -webkit-text-fill-color: #FCFAFA;
+}
+
+.faq-title {
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 510;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D9F7F5;
+
+    cursor : pointer;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+
+.faq-description{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 510;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #AAAAAA;
+}
+
+
+.slide {
+    clear:both;
+    width:100%;
+    height:0px;
+    overflow: hidden;
+    transition: height .4s ease;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #202932;
+}
+
+
+#touch0 {position: absolute;
+    opacity: 0;
+    height: 0px;
+}
+
+#touch0:checked + .slide {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #202932;
+}
+
+#touch1 {position: absolute; opacity: 0; height: 0px;}
+
+#touch1:checked + .slide {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #202932;
+}
+
+#touch2 {position: absolute; opacity: 0; height: 0px;}
+
+#touch2:checked + .slide {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #202932;
+}
+
+#touch3 {position: absolute; opacity: 0; height: 0px;}
+
+#touch3:checked + .slide {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    /*background: red;*/
+    border-bottom: 2px solid #202932;
+
+}
+.faq-shadow{
+    width: 215.31px;
+    height: 307.81px;
+    position: absolute;
+    background: conic-gradient(from -52.31deg at 60.83% 53.1%, #D9F7F5 -145.23deg, #2ADACC 13.96deg, #D9F7F5 214.77deg, #2ADACC 373.96deg);
+    filter: blur(100px);
+    transform: rotate(-111.57deg);
+    opacity: 0.17;
+    left: 0;
+}
+.faq-shadow2{
+    position: absolute;
+    width: 534.16px;
+    height: 591.59px;
+    background: linear-gradient(235.57deg, #2A9BDA 21.27%, #000A0F 63.87%);
+    filter: blur(273.563px);
+    transform: rotate(-98.55deg);
+    right: -35%;
+    top: 35%;
+    z-index: -1;
+}
+@media screen and (max-width: 480px){
+    .faq-container{
+        height: 100%;
+        padding: 0 1rem;
+        display: block;
+    }
+    .faq-dropdown_container{
+        margin-top: 5rem;
+    }
+    .faq_info_rectangle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .faq-shadow{
+        opacity: 0.3;
+    }
+    .faq-container{
+        margin-top: 10rem;
+    }
+
+}

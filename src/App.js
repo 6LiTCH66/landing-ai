@@ -1,11 +1,11 @@
 import './App.css';
 import {Navbar} from "./components";
-import {Header, Services, Solutions, About, Belief} from "./containers";
+import {Header, Services, Solutions, About, Belief, Faq} from "./containers";
 
 function App() {
   return (
     <div className="App">
-        <Navbar/>
+        {/*<Navbar/>*/}
 
         <Header/>
 
@@ -16,6 +16,8 @@ function App() {
         <About/>
 
         <Belief/>
+        
+        <Faq/>
 
     </div>
   );

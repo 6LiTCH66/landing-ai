@@ -3,3 +3,4 @@ export {default as Services} from "./services/Services";
 export {default as Solutions} from "./solutions/Solutions"
 export {default as About } from "./about/About"
 export {default as Belief} from "./belief/Belief"
+export {default as Faq} from "./FAQ/Faq"
