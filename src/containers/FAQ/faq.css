@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
 
 }
 .faq-container{
@@ -171,6 +171,7 @@
     }
     .faq-dropdown_container{
         margin-top: 5rem;
+
     }
     .faq_info_rectangle{
         display: flex;
@@ -182,6 +183,8 @@
     }
     .faq-container{
         margin-top: 10rem;
+        /*padding-bottom: 20rem;*/
+
     }
 
 }

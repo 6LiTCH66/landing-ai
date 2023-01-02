@@ -1,6 +1,6 @@
 import './App.css';
 import {Navbar} from "./components";
-import {Header, Services, Solutions, About, Belief, Faq} from "./containers";
+import {Header, Services, Solutions, About, Belief, Faq, Footer} from "./containers";
 
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
         <Belief/>
         
         <Faq/>
+
+        <Footer/>
 
     </div>
   );

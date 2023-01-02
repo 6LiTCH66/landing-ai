@@ -1,0 +1,44 @@
+.footer-container{
+    height: 60px;
+    background: #000305;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+}
+.footer-copyright{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 119.5%;
+
+    text-transform: uppercase;
+
+    color: #D9F7F5;
+}
+.footer-icons_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+}
+@media screen and (max-width: 480px){
+    .footer-container{
+        padding: 0 1rem;
+        display: block;
+        /*height: 100px;*/
+        /*margin-top: 10rem;*/
+    }
+    .footer-copyright{
+        display: flex;
+        padding: 1rem 0;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .footer-icons_container{
+        padding-bottom: 1rem;
+    }
+}
