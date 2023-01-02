@@ -61,6 +61,9 @@
     align-content: center;
     align-items: center;
     width: 100%;
+    /*background: red;*/
+    /*height: 100%;*/
+    min-height: 210px;
 
 }
 .about-images_shadow{
@@ -114,9 +117,11 @@
         display: block;
         padding: 0 1rem;
     }
+
     .about-info_container{
-        padding-bottom: 13rem;
+        padding-bottom: 7rem;
     }
+
     .about-images_cards{
         left: 0;
     }
@@ -132,16 +137,21 @@
         padding: 0 1rem;
     }
     .about-info_container{
-        padding-bottom: 13rem;
+        padding-bottom: 7rem;
     }
     .about-images_cards{
         left: 25%;
     }
+
 }
 
 @media screen and (max-height: 667px){
     .about-main_container{
         height: 100%;
     }
+    .about-images_container{
+        margin-bottom: 10rem;
+    }
+
 }
 
