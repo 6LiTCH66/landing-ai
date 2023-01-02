@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .about-info_container{
     width: 100%;
@@ -124,7 +125,7 @@
 @media screen and (max-width: 480px){
     .about-main_container{
         display: block;
-        height: 100%;
+
     }
     .about-container{
         display: block;
@@ -135,6 +136,12 @@
     }
     .about-images_cards{
         left: 25%;
+    }
+}
+
+@media screen and (max-height: 667px){
+    .about-main_container{
+        height: 100%;
     }
 }
 

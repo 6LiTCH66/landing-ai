@@ -1,0 +1,96 @@
+.belief-box{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.belief-box_shadow{
+    position: absolute;
+    /*opacity: 0.5;*/
+    left: 0;
+    bottom: 0;
+
+}
+.belief-box_shadow2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.belief-container{
+    padding: 0 6rem 0 6rem;
+    display: flex;
+}
+.belief-info_container{
+    width: 100%;
+}
+.belief_info-description{
+    margin-top: 36px;
+
+}
+.belief-images_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    min-width: 365px;
+    min-height: 261px;
+    height: 100%;
+
+}
+.belief-images_container img{
+    position: absolute;
+    top: -30%;
+}
+
+.belief_info-title{
+    max-width: 508px;
+}
+
+.belief_info-title p span{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 40px;
+    color: #F4F4F4;
+}
+
+.belief_info-description p span{
+    font-family: 'BlinkMacSystemFont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #F4F4F4;
+}
+
+@media screen and (max-height: 667px){
+    .belief-box{
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .belief_info-title{
+        margin-top: 5rem;
+    }
+    .belief-container{
+        padding: 0 1rem;
+    }
+    .belief-images_container{
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .belief-container{
+        display: block;
+    }
+    .belief-images_container{
+        margin-top: 10rem;
+    }
+}
