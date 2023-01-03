@@ -7,19 +7,19 @@ function App() {
     <div className="App">
         <Navbar/>
 
-        <Header/>
+        {/*<Header/>*/}
 
-        <Services/>
+        {/*<Services/>*/}
 
-        <Solutions/>
+        {/*<Solutions/>*/}
 
-        <About/>
+        {/*<About/>*/}
 
-        <Belief/>
+        {/*<Belief/>*/}
         
-        <Faq/>
+        {/*<Faq/>*/}
 
-        <Footer/>
+        {/*<Footer/>*/}
 
     </div>
   );
