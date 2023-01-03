@@ -5,7 +5,7 @@ import {Header, Services, Solutions, About, Belief, Faq, Footer} from "./contain
 function App() {
   return (
     <div className="App">
-        {/*<Navbar/>*/}
+        <Navbar/>
 
         <Header/>
 

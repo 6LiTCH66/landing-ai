@@ -23,6 +23,9 @@ function Navbar(props) {
                 <p>
                     <a href="#whitepaper">Whitepaper</a>
                 </p>
+                <p>
+                    <a href="#faq">FAQ</a>
+                </p>
             </div>
         </div>
     );

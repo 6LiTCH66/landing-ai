@@ -38,11 +38,12 @@ function Faq(props) {
     ]
 
     return (
-        <div className="faq-box">
+        <div className="faq-box" id="faq">
 
             <div className="faq-shadow2">
 
             </div>
+
             <div className="faq-container">
                 <div className="faq-info_container">
                     <div className="faq-shadow">
@@ -75,6 +76,7 @@ function Faq(props) {
                     </div>
 
                 </div>
+
                 <div className="faq-dropdown_container">
                     {titles.map((d, id) => {
                         return <ToggleItem id={id} description={d}/>
