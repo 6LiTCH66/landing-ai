@@ -1,37 +1,19 @@
 import React from 'react';
 import "./navbar.css"
-import Hamburger from 'hamburger-react'
-
+import Burger from "./burger/Burger";
 function Navbar(props) {
     return (
         <div className="navbar-container">
+
             <div className="navbar-links_logo">
                 <p>
-                    <a href="#company">Company</a>
+                    Company
                 </p>
             </div>
 
             <div className="navbar-links_container">
-
-                <p>
-                    <a href="#services">Services</a>
-                </p>
-                <p>
-                    <a href="#solutions">Solutions</a>
-                </p>
-                <p>
-                    <a href="#about_us">About Us</a>
-                </p>
-                <p>
-                    <a href="#whitepaper">Whitepaper</a>
-                </p>
-                <p>
-                    <a href="#faq">FAQ</a>
-                </p>
-
+               <Burger/>
             </div>
-
-
 
         </div>
     );
