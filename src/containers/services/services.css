@@ -25,7 +25,7 @@
     max-width: 466px;
 }
 .services-info_title p{
-    font-family: 'BlinkMacSystemFont';
+    font-family: 'Helvetica Neue';
     font-style: normal;
     font-weight: 700;
     font-size: 31px;
@@ -63,7 +63,7 @@
 }
 
 .services-info_discretion_container p:first-child{
-    font-family: 'BlinkMacSystemFont';
+    font-family: 'Helvetica Neue';
     font-style: normal;
     font-weight: 860;
     font-size: 18px;
@@ -92,7 +92,7 @@
 }
 
 .services-info_discretion_container p:last-child{
-    font-family: 'BlinkMacSystemFont';
+    font-family: 'Helvetica Neue';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
