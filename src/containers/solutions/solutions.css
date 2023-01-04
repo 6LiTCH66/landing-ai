@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url("fonts/Nunito-VariableFont_wght.ttf") format('truetype');
+}
+
 .solutions-box{
     position: relative;
     display: grid;
