@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-ai/static/css/main.940956ae.css",
+    "main.css": "/landing-ai/static/css/main.ff7fe38b.css",
     "main.js": "/landing-ai/static/js/main.6223ea67.js",
     "static/media/ai_2.svg": "/landing-ai/static/media/ai_2.07c09182aedccbbbc3d725f37e7e2b88.svg",
     "static/media/Group 95 (1).svg": "/landing-ai/static/media/Group 95 (1).01291f05a70c5a6fcdbb10558dfee08c.svg",
@@ -31,11 +31,11 @@
     "index.html": "/landing-ai/index.html",
     "static/media/arrow_down.svg": "/landing-ai/static/media/arrow_down.b82356cc67ddeb7f793aa1ba738dee81.svg",
     "static/media/arrow_up.svg": "/landing-ai/static/media/arrow_up.33adf051eb4a94472dab82c3a0c7a0cc.svg",
-    "main.940956ae.css.map": "/landing-ai/static/css/main.940956ae.css.map",
+    "main.ff7fe38b.css.map": "/landing-ai/static/css/main.ff7fe38b.css.map",
     "main.6223ea67.js.map": "/landing-ai/static/js/main.6223ea67.js.map"
   },
   "entrypoints": [
-    "static/css/main.940956ae.css",
+    "static/css/main.ff7fe38b.css",
     "static/js/main.6223ea67.js"
   ]
 }
