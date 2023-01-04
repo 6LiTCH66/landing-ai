@@ -21,7 +21,7 @@
 }
 
 .about_info-title p{
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 31px;
@@ -35,7 +35,7 @@
     text-fill-color: transparent;
 }
 .about_info-title{
-    width: 201px;
+    width: 205px;
     height: 29px;
 }
 

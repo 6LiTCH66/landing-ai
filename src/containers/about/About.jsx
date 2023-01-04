@@ -15,7 +15,7 @@ function About(props) {
             <div className="about-container">
 
                 <div className="about-info_container">
-                    <div className="about_info-title"data-aos="fade-left">
+                    <div className="about_info-title" data-aos="fade-left">
                         <p>
                             <span>How it's </span>
                             <span>work</span>
