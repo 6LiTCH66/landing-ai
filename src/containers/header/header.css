@@ -1,22 +1,13 @@
 .header-container{
     display: flex;
     padding: 0 6rem 11rem 6rem;
-    /*background: red;*/
     height: 100vh;
     justify-content: center;
     align-items: center;
     align-content: center;
 
-
-    /*FOR RESPONSIVE*/
-    /*display: BLOCK;*/
-    /*padding: 0 2rem 0 2rem; OR padding: 0 1rem 0 1rem;*/
 }
 
-/*.header-box{*/
-/*    background-color: green;*/
-/*    height: 90vh;*/
-/*}*/
 
 .header-text_title .header-title_gradient{
 
@@ -151,5 +142,6 @@
     .header-image img{
         max-width: 100%;
         height: auto;
+        margin-top: 3rem;
     }
 }

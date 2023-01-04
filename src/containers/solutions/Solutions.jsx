@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./solutions.css"
 import left_arrow from "../../assets/left_arrow.svg"
 import right_arrow from "../../assets/right_arrow.svg"
 import solution_pro from "../../assets/solution_pro.svg"
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Solutions(props) {
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, [])
     return (
         <div className="solutions-box" id="solutions">
 
@@ -12,7 +17,7 @@ function Solutions(props) {
 
                 </div>
                 <div className="solutions-container_title">
-                    <div className="solutions_title">
+                    <div className="solutions_title" data-aos="zoom-out">
                         <span>Our </span>
                         <span>
                             Solutions
@@ -23,14 +28,14 @@ function Solutions(props) {
 
                 <div className="solutions-container_content">
 
-                    <div className="arrows">
+                    <div className="arrows" data-aos="fade-right">
                         <img src={left_arrow} alt=""/>
                     </div>
 
                     <div className="solutions-content">
 
 
-                        <div className="solution-project_shadow">
+                        <div className="solution-project_shadow" data-aos="fade-up">
                             <div className="solution-project">
 
                                 <div className="solution-project_icon">
@@ -54,7 +59,7 @@ function Solutions(props) {
                             </div>
                         </div>
 
-                        <div className="solution-project_shadow">
+                        <div className="solution-project_shadow" data-aos="fade-down">
                             <div className="solution-project">
 
                                 <div className="solution-project_icon">
@@ -78,7 +83,7 @@ function Solutions(props) {
                             </div>
                         </div>
 
-                        <div className="solution-project_shadow">
+                        <div className="solution-project_shadow" data-aos="fade-up">
                             <div className="solution-project">
 
                                 <div className="solution-project_icon">
@@ -104,7 +109,7 @@ function Solutions(props) {
 
                     </div>
 
-                    <div className="arrows">
+                    <div className="arrows" data-aos="fade-left">
                         <img src={right_arrow} alt=""/>
                     </div>
                 </div>

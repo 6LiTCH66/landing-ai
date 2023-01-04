@@ -34,34 +34,6 @@
     margin: 0 1.3rem;
 }
 
-
-
-/*.navbar-links_container{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: space-around;*/
-
-/*}*/
-
-/*.navbar-links_container p a{*/
-/*    text-decoration: none;*/
-/*    font-family: 'BlinkMacSystemFont';*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    font-size: 16px;*/
-/*    line-height: 19px;*/
-
-/*    color: #FFFFFF;*/
-/*    margin: 0 1.3rem;*/
-/*}*/
-
-/*.navbar-links_container p:last-child a{*/
-/*    margin-right: 0;*/
-/*}*/
-/*.navbar-links_container p:first-child a{*/
-/*    margin-left: 0;*/
-/*}*/
-
 @media screen and (max-width: 480px){
     .navbar-container{
         padding-right: 2rem;

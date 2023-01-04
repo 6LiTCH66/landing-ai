@@ -15,6 +15,7 @@
     height: 100%;
     align-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
 .faq_info-title{

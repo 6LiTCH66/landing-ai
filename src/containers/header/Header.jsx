@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./header.css";
 import ai from "../../assets/ai.png"
 import ai_2 from "../../assets/ai_2.svg"
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Header(props) {
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, [])
     return (
         <div className="header-box">
             <div className="header-container">
@@ -11,11 +16,11 @@ function Header(props) {
                 <div className="header-info">
                     <div className="header-text">
                         <div className="header-text_title">
-                            <p className="header-title_gradient">
+                            <p className="header-title_gradient" data-aos="fade-down">
                                 Neural
                             </p>
 
-                            <p className="header-title">
+                            <p className="header-title" data-aos="fade-up">
                                 finance AI.
                             </p>
                         </div>
@@ -45,7 +50,7 @@ function Header(props) {
                     </div>
                 </div>
 
-                <div className="header-image">
+                <div className="header-image" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <img src={ai_2} alt="ai"/>
                 </div>
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./services.css"
 
 import pc from "../../assets/iconoir_pc-check.svg"
@@ -6,17 +6,21 @@ import user from "../../assets/user.svg"
 import Iphone_13 from "../../assets/iPhone_13.svg"
 import Vector from "../../assets/Vector.svg"
 import iphone from "../../assets/Group 98.svg"
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Services(props) {
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, [])
     return (
         <div className="services-box" id="services">
             <div className="services-container_vector">
                 <img src={Vector} alt="vector"/>
             </div>
 
-            <div className="services-info-title-container">
-                <div className="services-info_title">
+            <div className="services-info-title-container" >
+                <div className="services-info_title" data-aos="fade-left">
                     <p>
                         <span >Explore </span>
                         <span className="normal_title">from computer,control from phone</span>
@@ -39,11 +43,11 @@ function Services(props) {
                     </div>
 
 
-                    <div className="iphone-13_image">
+                    <div className="iphone-13_image" data-aos="fade-down">
                         <img src={Iphone_13} alt="iphone_13"/>
                     </div>
 
-                    <div className="iphone-12_image">
+                    <div className="iphone-12_image" data-aos="fade-up">
                         <img src={iphone} alt="iphone_12"/>
                     </div>
                 </div>
@@ -53,7 +57,7 @@ function Services(props) {
 
                     <div className="services-info_discretion">
 
-                        <div className="services-info_container">
+                        <div className="services-info_container" data-aos="fade-left">
                             <div className="services-info_icon_container">
 
                                 <div className="services-info_icon_shadow">
@@ -81,7 +85,7 @@ function Services(props) {
 
 
 
-                        <div className="services-info_container">
+                        <div className="services-info_container" data-aos="fade-left">
                             <div className="services-info_icon_container">
 
                                 <div className="services-info_icon_shadow">
@@ -108,7 +112,7 @@ function Services(props) {
 
 
 
-                        <div className="services-info_container">
+                        <div className="services-info_container" data-aos="fade-left">
                             <div className="services-info_icon_container">
 
                                 <div className="services-info_icon_shadow">

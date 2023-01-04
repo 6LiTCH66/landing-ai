@@ -1,8 +1,10 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./faq.css"
 import arrow_down from "../../assets/arrow_down.svg"
 import arrow_up from "../../assets/arrow_up.svg"
 import faq_dots from "../../assets/faq_dots.svg"
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ToggleItem = ({ description, id }) => {
     const [toggleMenu, setToggleMenu] = useState(true)
@@ -30,6 +32,10 @@ const ToggleItem = ({ description, id }) => {
 }
 
 function Faq(props) {
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, [])
+
     const titles = [
         "How can I register on your platform ?",
         "Where can I download the application?",
@@ -49,7 +55,7 @@ function Faq(props) {
                     <div className="faq-shadow">
 
                     </div>
-                    <div className="faq_info-title">
+                    <div className="faq_info-title" data-aos="fade-right">
                             <span>
                                 Frequently
                             </span>
@@ -61,7 +67,7 @@ function Faq(props) {
                             </div>
 
                     </div>
-                    <div className="faq_info-description">
+                    <div className="faq_info-description" data-aos="fade-left">
                         <p>
                             <span>
                                 We Know you have some questions in mind, we've tried to list the most important ones.
