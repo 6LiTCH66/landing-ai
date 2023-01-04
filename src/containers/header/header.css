@@ -11,7 +11,7 @@
 .header-text_title .header-title_gradient{
 
     text-transform: capitalize;
-    font-family: 'Exan';
+    font-family: 'Exan', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -27,7 +27,7 @@
     width: 149px;
 }
 .header-text_title .header-title{
-    font-family: 'Exan';
+    font-family: 'Exan', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
