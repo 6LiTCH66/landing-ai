@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/landing-ai/static/css/main.a2414640.css",
+    "main.css": "/landing-ai/static/css/main.5bc6a906.css",
     "main.js": "/landing-ai/static/js/main.6223ea67.js",
     "static/media/ai_2.svg": "/landing-ai/static/media/ai_2.07c09182aedccbbbc3d725f37e7e2b88.svg",
     "static/media/Group 95 (1).svg": "/landing-ai/static/media/Group 95 (1).01291f05a70c5a6fcdbb10558dfee08c.svg",
     "static/media/Group 98.svg": "/landing-ai/static/media/Group 98.73af3d3bedd461d77d22051fd01f2ec4.svg",
     "static/media/iPhone_13.svg": "/landing-ai/static/media/iPhone_13.0a0eeb6a645d34da259bd43faefcb70d.svg",
+    "static/media/Nunito-VariableFont_wght.ttf": "/landing-ai/static/media/Nunito-VariableFont_wght.4a3eef3e0a61b7eb3eda.ttf",
     "static/media/ai.png": "/landing-ai/static/media/ai.27a7b9a36d0bc999d41c.png",
     "static/media/Group 93.svg": "/landing-ai/static/media/Group 93.9a1c8d1084ca069ec18be3a968696d53.svg",
     "static/media/Group 94.svg": "/landing-ai/static/media/Group 94.9a4af81bfc050044e6382bc2032c2d86.svg",
@@ -32,11 +33,11 @@
     "index.html": "/landing-ai/index.html",
     "static/media/arrow_down.svg": "/landing-ai/static/media/arrow_down.b82356cc67ddeb7f793aa1ba738dee81.svg",
     "static/media/arrow_up.svg": "/landing-ai/static/media/arrow_up.33adf051eb4a94472dab82c3a0c7a0cc.svg",
-    "main.a2414640.css.map": "/landing-ai/static/css/main.a2414640.css.map",
+    "main.5bc6a906.css.map": "/landing-ai/static/css/main.5bc6a906.css.map",
     "main.6223ea67.js.map": "/landing-ai/static/js/main.6223ea67.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2414640.css",
+    "static/css/main.5bc6a906.css",
     "static/js/main.6223ea67.js"
   ]
 }
