@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Exan';
+    src: url("fonts/Exan-Regular.ttf");
+}
+
+
 .header-container{
     display: flex;
     padding: 0 6rem 11rem 6rem;
