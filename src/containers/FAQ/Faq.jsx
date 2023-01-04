@@ -7,7 +7,7 @@ import faq_dots from "../../assets/faq_dots.svg"
 const ToggleItem = ({ description, id }) => {
     const [toggleMenu, setToggleMenu] = useState(true)
     return (
-        <div className="faq-dropdown">
+        <div className="faq-dropdown" >
 
             <label htmlFor={"touch" + id} onClick={() => toggleMenu ? setToggleMenu(false): setToggleMenu(true)}>
 
@@ -21,7 +21,7 @@ const ToggleItem = ({ description, id }) => {
             <input type="checkbox" id={"touch" + id}/>
 
             <ul className="slide">
-                <li>
+                <li key={id}>
                     <span className="faq-description">You can register on the site or pass verification through your Facebook account.</span>
                 </li>
             </ul>
@@ -50,7 +50,6 @@ function Faq(props) {
 
                     </div>
                     <div className="faq_info-title">
-                        <p>
                             <span>
                                 Frequently
                             </span>
@@ -61,7 +60,6 @@ function Faq(props) {
                                 <span className="faq-gradient"> Question</span>
                             </div>
 
-                        </p>
                     </div>
                     <div className="faq_info-description">
                         <p>
@@ -79,7 +77,7 @@ function Faq(props) {
 
                 <div className="faq-dropdown_container">
                     {titles.map((d, id) => {
-                        return <ToggleItem id={id} description={d}/>
+                        return <ToggleItem id={id} description={d} key={id}/>
                     })}
                 </div>
             </div>

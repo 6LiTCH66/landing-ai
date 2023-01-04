@@ -47,7 +47,6 @@ function Burger(props) {
     }
 
     useEffect(() => {
-        console.log(open, '- Has changed')
         document.body.style.overflow = !open ? 'auto' : 'hidden';
     }, [open]);
 
