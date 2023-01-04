@@ -15,7 +15,7 @@ const Ul = styled.ul`
     
     flex-flow: column nowrap;
     background-color: #0F001F;
-    opacity: 0.90;
+    opacity: 0.95;
     z-index: 10;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
@@ -31,23 +31,23 @@ const Ul = styled.ul`
     }
   }
 `;
-function RightNavbar({open}) {
+function RightNavbar(props) {
     return (
-        <Ul open={open}>
+        <Ul open={props.open}>
             <li>
-                <a href="#services">Services</a>
+                <a href="#services" onClick={props.onClick}>Services</a>
             </li>
             <li>
-                <a href="#solutions">Solutions</a>
+                <a href="#solutions" onClick={props.onClick}>Solutions</a>
             </li>
             <li>
-                <a href="#about_us">About Us</a>
+                <a href="#about_us" onClick={props.onClick}>About Us</a>
             </li>
             <li>
-                <a href="#whitepaper">Whitepaper</a>
+                <a href="#whitepaper" onClick={props.onClick}>Whitepaper</a>
             </li>
             <li>
-                <a href="#faq">FAQ</a>
+                <a href="#faq" onClick={props.onClick}>FAQ</a>
             </li>
         </Ul>
     );

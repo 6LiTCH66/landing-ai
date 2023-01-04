@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./burger.css"
 import RightNavbar from "../RightNavbar/RightNavbar";
 import styled from "styled-components";
-
 
 const StyledBurger = styled.div`
   width: 2rem;
@@ -39,8 +38,19 @@ const StyledBurger = styled.div`
   }
 `;
 
+
 function Burger(props) {
     const [open, setOpen] = useState(false)
+
+    const handleLinkClick = () => {
+        setOpen(false);
+    }
+
+    useEffect(() => {
+        console.log(open, '- Has changed')
+        document.body.style.overflow = !open ? 'auto' : 'hidden';
+    }, [open]);
+
     return (
         <>
             <StyledBurger open={open} onClick={() => setOpen(!open)}>
@@ -49,7 +59,7 @@ function Burger(props) {
                 <div />
             </StyledBurger>
 
-            <RightNavbar open={open}/>
+            <RightNavbar open={open} onClick={handleLinkClick}/>
         </>
     );
 }
